@@ -1,36 +1,35 @@
-                                                                        * {
-                                                                        padding: 0;
-                                                                        margin: 0;
-                                                                        box-sizing: border-box;
-                                                                        font-family: 'poppins', sans-serif;
-                                                                    }
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'poppins', sans-serif;
+   }
+ body {
+ color: #ededed;
+ background: url(/asset/background.jpg) no-repeat;
+  }
+   
+.header {
+height: 60px;
+position: sticky;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 10%;
+background: #8f14b8;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+transition: height 0.3s background;
+ }
                                                                     
-                                                                    body {
-                                                                        color: #ededed;
-                                                                        background: url(/asset/background.jpg) no-repeat;
-                                                                    }
+.header.small {
+height: 30px;
+background: transparent;
+ }
                                                                     
-                                                                    .header {
-                                                                        height: 60px;
-                                                                        position: sticky;
-                                                                        top: 0;
-                                                                        left: 0;
-                                                                        width: 100%;
-                                                                        padding: 20px 10%;
-                                                                        background: #8f14b8;
-                                                                        display: flex;
-                                                                        justify-content: space-between;
-                                                                        align-items: center;
-                                                                        z-index: 100;
-                                                                        transition: height 0.3s background;
-                                                                    }
-                                                                    
-                                                                    .header.small {
-                                                                        height: 30px;
-                                                                        background: transparent;
-                                                                    }
-                                                                    
-                                                                    .logo {
+.logo {
                                                                         position: relative;
                                                                         font-size: 38px;
                                                                         color: white;
