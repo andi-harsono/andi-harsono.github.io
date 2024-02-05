@@ -668,6 +668,12 @@ form .send-btn:hover {
         animation: slideLeft 1s ease forwards;
         animation-delay: 1s;
     }
+    .home-sci{
+        position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    }
     .image{
     position: absolute;
     width: 70%; /* Sesuaikan lebar sesuai kebutuhan */
