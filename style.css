@@ -663,21 +663,17 @@ form .send-btn:hover {
     }
     
     .home-content p {
+        display:hidden;
         font-size: 13px;
         opacity: 0;
         animation: slideLeft 1s ease forwards;
         animation-delay: 1s;
     }
-    .home-sci{
-        position: relative;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    }
+
     .image{
-    position: absolute;
-    width: 70%; /* Sesuaikan lebar sesuai kebutuhan */
-    z-index: 100;
+        position: absolute;
+        width: 70%; /* Sesuaikan lebar sesuai kebutuhan */
+        z-index: 100;
     }
     .image img {position: relative;
         margin-top: 20px;
@@ -685,6 +681,12 @@ form .send-btn:hover {
         transform: translate(-50%, -50%);
         width: 190px;
         height: 235px;
+    }  
+    .home-sci{
+        position: relative;
+        text-align: center;
+        display: flex;
+        justify-content: center;
     }
     .home-sci a {
         display: inline-flex;
