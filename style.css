@@ -663,7 +663,7 @@ form .send-btn:hover {
     }
     
     .home-content p {
-        display:hidden;
+        display:none;
         font-size: 13px;
         opacity: 0;
         animation: slideLeft 1s ease forwards;
