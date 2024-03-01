@@ -6,18 +6,20 @@
 }
 
 body {
-    color: #ededed;
-    background-color: #2d343f;
+    color: black;
+    background-color: white;
 }
 
+
 .header {
+    background-color:#838ea0;
     height: 60px;
     position: sticky;
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: #c9a156;
+    background: 0306376;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,13 +29,13 @@ body {
 
 .header.small {
     height: 30px;
-    background:rgb(117, 91, 21);
+    background:#9aa9c2;
 }
 
 .logo {
     position: relative;
     font-size: 38px;
-    color: white;
+    color: rgb(14, 175, 224);
     text-decoration: none;
     font-weight: 900;
     cursor: default;
@@ -42,13 +44,13 @@ body {
 }
 
 .logo span {
-    color: #0ef;
+    color: black;
     font-size: 30px;
     font-weight: 900;
 }
 
 .logo span1 {
-    color: #0ef;
+    color: black;
     font-size: 30px;
     font-weight: 900;
 }
@@ -61,7 +63,7 @@ body {
 
 .navbar a {
     display: inline-block;
-    color: #fff;
+    color: black;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
@@ -72,7 +74,7 @@ body {
 }
 
 .navbar a:hover {
-    color: #0ef;
+    color: white;
 }
 
 #menu-icon {
@@ -83,7 +85,7 @@ body {
 }
 
 header.sticky {
-    background: goldenrod;
+    background: #535C91;
     box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 2);
     padding: 16px 16%;
 }
@@ -91,8 +93,9 @@ header.sticky {
 .home {
     position: relative;
     width: 100%;
+    height: 100vh;
     justify-content: space-between;
-    background-color: #2d343f ;
+    background-color: 030637f ;
     background-size: cover;
     background-position-y: bottom;
     display: flex;
@@ -151,13 +154,13 @@ header.sticky {
     justify-content: right;
     display: flex;
     width: 300px;
-    height: 400px;
-    border-width: 5px;
+    height: 300px;
+    border-width: 0px;
     border-style: double;
     border-color: #0ef;
     background-color: transparent;
-    border-radius: 20%;
-    box-shadow: 0px 0px 40px#0ef;
+    border-radius: 90%;
+    box-shadow: 0px 0px 0px#0ef;
     padding: 2px;
     opacity: 0;
     animation: slideLeft 3.5s ease forwards;
@@ -191,7 +194,7 @@ header.sticky {
 
 .home-sci a:hover {
     background: #0ef;
-    color: #8b17a7;
+    color:rgb(2, 1, 1);
     box-shadow: 0 0 20px #0ef;
 }
 
@@ -213,13 +216,13 @@ header.sticky {
 
 .btn-box:hover {
     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
-    color: #8b17a7;
+    color: white;
 }
 
 .about {
     flex-direction: column;
     gap: 1.5rem;
-    background-color: #2d343f;
+    background-color:white;
     background-size: cover;
     display: grid;
     align-items: center;
@@ -227,7 +230,7 @@ header.sticky {
     position: relative;
     width: 100%;
     height: 100vh;
-    padding: 100px 10% 0;
+     padding: 100px 10% 0;
 }
 
 .about-img img {
@@ -238,7 +241,10 @@ header.sticky {
     margin-left: 100px;
     margin-bottom: 10px;
 }
+.about-text{
+    align-items: baseline;
 
+}
 .about-text h2 {
     font-size: 60px;
 }
@@ -250,13 +256,13 @@ header.sticky {
 .about-text h4 {
     font-size: 29px;
     font-weight: 600;
-    color: #fff;
+    color: black;
     line-height: 1.7;
     margin: 5px 0 10px;
 }
 
 .about-text p {
-    color: aliceblue;
+    color:black;
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
@@ -267,7 +273,7 @@ header.sticky {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background-color: #2d343f;
+    background-color:white;
     background-size: cover;
     background-position-y: bottom;
 }
@@ -307,7 +313,7 @@ header.sticky {
 }
 
 .row {
-    background: #2d343f;
+    background: white;
     border-radius: 28px;
     border: 1px solid transparent;
     box-shadow: 0 0 5px blue;
@@ -325,7 +331,7 @@ header.sticky {
 .row h5 {
     font-size: 23px;
     font-weight: 600;
-    color: whitesmoke;
+    color: black;
 }
 
 .row i {
@@ -337,7 +343,7 @@ header.sticky {
     font-size: 27px;
     border-radius: 50%;
     color: white;
-    background: rgb(180, 5, 180);
+    background: #0ef;
 }
 
 .row h4 {
@@ -390,7 +396,7 @@ header.sticky {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background-color: #2d343f;
+    background-color:white;
     background-size: cover;
     background-position-y: bottom;
 }
@@ -434,7 +440,7 @@ header.sticky {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background-color: #2d343f;
+    background-color:white;
     background-size: cover;
     background-position-y: bottom;
 }
@@ -458,7 +464,7 @@ form textarea {
 }
 
 form input::placeholder,
-form textarea ::placeholder {
+form textarea::placeholder {
     color: greenyellow;
     font-size: 15px;
 }
@@ -477,7 +483,7 @@ form .send-btn {
 
 form .send-btn:hover {
     background: transparent;
-    color: white;
+    color: blue;
     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
     ;
     cursor: pointer;
@@ -509,7 +515,7 @@ form .send-btn:hover {
 
 .scroll-top i:hover {
     background: transparent;
-    color: white;
+    color: blue;
     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
     ;
     cursor: pointer;
